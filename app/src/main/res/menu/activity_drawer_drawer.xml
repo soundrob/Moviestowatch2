@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_box_office"
+        android:icon="@drawable/ic_video_library_black_24dp"
+        android:title="@string/drawer_title_box_office"/>
+    <item
+        android:id="@+id/nav_watch_list"
+        android:icon="@drawable/ic_video_call_black_24dp"
+        android:title="@string/drawer_title_watch_list"/>
+  </group>
+
+</menu>
