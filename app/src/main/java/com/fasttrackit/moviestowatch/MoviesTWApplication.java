@@ -6,11 +6,12 @@ import android.app.Application;
  * @author mihai.mecea
  */
 
-public class MoviesTWApplication extends Application{
+public class MoviesTWApplication extends Application {
 
   @Override
-  protected Object clone() throws CloneNotSupportedException {
-    return super.clone();
+  public void onCreate() {
+    super.onCreate();
+
   }
 
 }
